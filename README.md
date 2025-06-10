@@ -67,7 +67,8 @@ For different parameter setups, please change these values directly in the code 
 ### Run Real-Data Experiments
 We have provided the cleaned, pre-processed, ready-to-use real datasets used in the DFNMF\data directory. For each dataset, the data_loader function loads the corresponding dataset based on the input argument in the main function.
 In order to run the experiment for either of the real datasets, redirect to the experiments directory and run the "experiments.py" script. 
-As also commented in the code, you need to select the dataset to execute analysis: _1)Diaries 2)Facebook 3)Friendship 4)Drugnet 5)NBA 6)LastFM, 7)Pokec_
+As also commented in the code, you need to select the dataset to execute analysis: _1)Diaries 2)Facebook 3)Friendship 4)Drugnet 5)NBA 6)LastFM, 7)Pokec_.
+
 Please input the dataset ID as an ordinal number from $1-7$ in the configuration data structure in the main function to indicate the name of the dataset in the above order. 
 
 ```bash
