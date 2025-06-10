@@ -49,9 +49,7 @@ Repository to demonstrate codes, instructions, dependencies (i.e., package requi
 Our code also provides comparisons to the spectral-based clustering models-- including vanilla SC, FairSC and scalable FairSC-models--, as well as GNN-based and NMF-based baselines implemented in Python and utilizes the respective baseline implementations automatically.
 Start by installing the requirements.
 <pre>
-  ```
 pip install -r requirements.txt
-```
 </pre>
 
 
@@ -71,7 +69,7 @@ In order to run the experiment for either of the real datasets, redirect to the 
 As also commented in the code, you need to select the dataset to execute analysis: 
 <pre>
 #### Real Dataset Names
-_1)Diaries 2)Facebook 3)Friendship 4)Drugnet 5)NBA 6)LastFM, 7)Pokec_.
+<i> 1)Diaries 2)Facebook 3)Friendship 4)Drugnet 5)NBA 6)LastFM, 7)Pokec. </i>
 </pre>
   
 Please input the dataset ID as an ordinal number from $1-7$ in the configuration data structure in the main function to indicate the name of the dataset in the above order. 
