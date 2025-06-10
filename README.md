@@ -69,7 +69,15 @@ In order to run the experiment for either of the real datasets, redirect to the 
 As also commented in the code, you need to select the dataset to execute analysis: 
 <pre>
 #### Real Dataset Names
-<i> 1)Diaries 2)Facebook 3)Friendship 4)Drugnet 5)NBA 6)LastFM, 7)Pokec. </i>
+  <i> 
+  1) Diaries 
+  2) Facebook 
+  3) Friendship 
+  4) Drugnet 
+  5) NBA 
+  6) LastFM, 
+  7) Pokec. 
+  </i>
 </pre>
   
 Please input the dataset ID as an ordinal number from $1-7$ in the configuration data structure in the main function to indicate the name of the dataset in the above order. 
