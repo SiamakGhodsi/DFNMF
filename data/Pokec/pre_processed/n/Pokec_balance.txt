@@ -1,0 +1,6 @@
+Dataset balance (min count / max count): 0.1772
+Protected attribute group counts:
+  Group 1: 31961
+  Group 2: 17862
+  Group 3: 12311
+  Group 4: 5662
