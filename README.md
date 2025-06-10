@@ -60,7 +60,7 @@ In order to run the SBM experiments, redirect to the experiments directory and r
 and, n=10000 number of nodes for k=5 clusters and h=2 groups as in our experiments and compared our model **_DFNMF_** with the baselines.
 
 ```bash
-python Run_SBM.py
+python sbm.py
 ```
 For different parameter setups, please change these values directly in the code snippet "sbm.py" and run. 
 
@@ -71,13 +71,11 @@ As also commented in the code, you need to select the dataset to execute analysi
 Please input the dataset ID as an ordinal number from $1-7$ in the configuration data structure in the main function to indicate the name of the dataset in the above order. 
 
 ```bash
-python Run_real.py
-input>> [here enter a number from 1 to 6]
+python experiments.py
 ```
 
-The code will automatically load the data using the proper data_loader and run a grid-search for DFNMF with a range of $\lambda \n [0.001,\cdots,1000]$, 
+The code will automatically load the data using the proper data_loader and run a grid-search for DFNMF with a range of $\lambda \in [0.001,\cdots,1000]$, 
 compared to the baselines for $k \in [2,15]$ clusters.
 
 ### Visualizations
-based on the saved results, visualizations are provided un
 The notebook that visualizes our obtained results can be found under the "experiments\visualizations" directory.
