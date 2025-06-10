@@ -4,7 +4,6 @@ Repository to demonstrate codes, instructions, dependencies (i.e., package requi
 
 ### Here is the code structure 
 <pre>
-  ```
 📦 project-root/
 ├── 📂 data/                   # Data loaders & datasets
 │   ├── __init__.py
@@ -43,16 +42,17 @@ Repository to demonstrate codes, instructions, dependencies (i.e., package requi
 │   ├── 📁 SBM/
 │   └── 📁 visualizations/
 │       └── visualizations.ipynb
-```
 </pre>
 
 
 ## Instructions 
 Our code also provides comparisons to the spectral-based clustering models-- including vanilla SC, FairSC and scalable FairSC-models--, as well as GNN-based and NMF-based baselines implemented in Python and utilizes the respective baseline implementations automatically.
 Start by installing the requirements.
-```bash
+<pre>
+  ```
 pip install -r requirements.txt
 ```
+</pre>
 
 
 ### Run SBM Experiments
@@ -60,9 +60,7 @@ In order to run the SBM experiments, redirect to the experiments directory and r
 and, n=10000 number of nodes for k=5 clusters and h=2 groups as in our experiments and compared our model **_DFNMF_** with the baselines.
 
 <pre>
-  ```
 python sbm.py
-```
 </pre>
 
 For different parameter setups, please change these values directly in the code snippet "sbm.py" and run. 
@@ -72,17 +70,14 @@ We have provided the cleaned, pre-processed, ready-to-use real datasets used in 
 In order to run the experiment for either of the real datasets, redirect to the experiments directory and run the "experiments.py" script. 
 As also commented in the code, you need to select the dataset to execute analysis: 
 <pre>
-  ```
+#### Real Dataset Names
 _1)Diaries 2)Facebook 3)Friendship 4)Drugnet 5)NBA 6)LastFM, 7)Pokec_.
-  ```
 </pre>
   
 Please input the dataset ID as an ordinal number from $1-7$ in the configuration data structure in the main function to indicate the name of the dataset in the above order. 
 
 <pre>
-  ```
 python experiments.py
-```
 </pre>
 
 The code will automatically load the data using the proper data_loader and run a grid-search for DFNMF with a range of $\lambda \in [0.001,\cdots,1000]$, 
