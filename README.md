@@ -68,7 +68,7 @@ We have provided the cleaned, pre-processed, ready-to-use real datasets used in 
 In order to run the experiment for either of the real datasets, redirect to the experiments directory and run the "experiments.py" script. 
 As also commented in the code, you need to select the dataset to execute analysis: 
 <pre>
-#### Real Dataset Names
+Real Dataset Names
   <i> 
   1) Diaries 
   2) Facebook 
@@ -76,7 +76,7 @@ As also commented in the code, you need to select the dataset to execute analysi
   4) Drugnet 
   5) NBA 
   6) LastFM, 
-  7) Pokec. 
+  7) Pokec 
   </i>
 </pre>
   
