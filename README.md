@@ -1,6 +1,6 @@
 # A Deep Latent Factor Graph Clustering <br />with Fairness-Utility Trade-off Perspective
 
-Repository to demonstrate codes, instructions, dependencies (i.e., package requirements), and data, of the paper titled "A Deep Latent Factor Model for\\Fairness-Utility Trade-off in Graph Clustering" submitted to ICDM 2025.
+Repository to demonstrate codes, instructions, dependencies (i.e., package requirements), and data, of the paper titled "A Deep Latent Factor Model for\\Fairness-Utility Trade-off in Graph Clustering" submitted to IEEE BigData 2025.
 
 ### Here is the code structure 
 <pre>
