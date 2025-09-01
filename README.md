@@ -87,7 +87,7 @@ python experiments.py
 </pre>
 
 The code will automatically load the data using the proper data_loader and run a grid-search for DFNMF with a range of $\lambda \in [0.001,\cdots,1000]$, 
-compared to the baselines for $k \in [2,15]$ clusters.
+compared to the baselines for $k \in [2,10]$ clusters.
 
 <!-- ### Visualizations
 The notebook that visualizes our obtained results can be found under the "experiments\visualizations" directory. -->
