@@ -92,8 +92,8 @@ compared to the baselines for $k \in [2,10]$ clusters.
 <!-- ### Visualizations
 The notebook that visualizes our obtained results can be found under the "experiments\visualizations" directory. -->
 
+## Citation
 <pre>
-  ## Citation
 Don't forget to cite this work if you use our material: such as the paper, idea, or code material, including datasets, baselines and etc. 
 Ghodsi, S., Seyedi, A., Le Quy, T., Karimi, F., Ntoutsi, E. (2025).
 #### A Deep Latent Factor Graph Clustering with a Fairness–Utility Trade-off Perspective.
