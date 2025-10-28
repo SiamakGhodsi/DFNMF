@@ -1,6 +1,6 @@
 # A Deep Latent Factor Graph Clustering <br />with Fairness-Utility Trade-off Perspective
 
-Repository to demonstrate codes, instructions, dependencies (i.e., package requirements), and data, of the paper titled "A Deep Latent Factor Model for Fairness-Utility Trade-off in Graph Clustering" submitted to IEEE BigData 2025.
+Repository to demonstrate codes, instructions, dependencies (i.e., package requirements), and data, of the paper titled "A Deep Latent Factor Model for Fairness-Utility Trade-off in Graph Clustering" accepted in IEEE BigData 2025 Macau.
 
 ### Here is the code structure 
 <pre>
@@ -91,3 +91,19 @@ compared to the baselines for $k \in [2,10]$ clusters.
 
 <!-- ### Visualizations
 The notebook that visualizes our obtained results can be found under the "experiments\visualizations" directory. -->
+
+<pre>
+Don't forget to cite this work if you use our material: such as the paper, idea, or code material, including datasets, baselines and etc. 
+**Citation**
+Ghodsi, S., Seyedi, A., Le Quy, T., Karimi, F., Ntoutsi, E. (2025).
+*A Deep Latent Factor Graph Clustering with a Fairness–Utility Trade-off Perspective.*
+IEEE Big Data 2025. Preprint: https://arxiv.org/abs/2510.23507
+
+@inproceedings{Ghodsi2025DLFGC,
+  author    = {Siamak Ghodsi and Amjad Seyedi and Tai Le Quy and Fariba Karimi and Eirini Ntoutsi},
+  title     = {A Deep Latent Factor Graph Clustering with a Fairness--Utility Trade-off Perspective},
+  booktitle = {IEEE International Conference on Big Data (BigData)},
+  year      = {2025},
+  note      = {Preprint: \url{https://arxiv.org/abs/2510.23507}}
+}
+</pre>
